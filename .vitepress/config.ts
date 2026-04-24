@@ -81,6 +81,11 @@ export default defineConfig({
       ],
     },
 
+    editLink: {
+      pattern: 'https://github.com/lvzhenbo/Wandering-Sword-Walkthrough/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+
     outline: {
       level: [2, 3],
       label: "本页导航",
@@ -90,6 +95,9 @@ export default defineConfig({
       next: "下一章",
     },
 
+    lastUpdated: {
+      text: '最后更新于'
+    },
     notFound: {
       title: "页面未找到",
       quote:
