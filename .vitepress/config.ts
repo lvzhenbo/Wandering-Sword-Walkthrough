@@ -6,7 +6,7 @@ export default defineConfig({
   srcExclude: ["README.md"],
   title: "《逸剑风云决》攻略",
   description: "虚饮茶所著·逸剑风云决·萌新攻略完美路线·全DLC覆盖",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/Wandering-Sword-Walkthrough/favicon.ico" }]],
   lang: "zh-CN",
   lastUpdated: true,
   themeConfig: {
